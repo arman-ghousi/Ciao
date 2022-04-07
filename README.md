@@ -1,48 +1,70 @@
-# Ciao
+# Getting Started with Create React App
 
-Ciao is a Chat user interface created with create-react-app and is written in React.js.
-Currently the UI only supports Desktop view and is not mobile responsive.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Usage
+## Available Scripts
 
-Download or clone the project directory in your own system, and navigate into *ciao*.
+In the project directory, you can run:
 
-Run 'npm i' in your terminal to install project dependencies and after the installation is compelete run 'npm start' to open the project on your localhost (normally on port 3000).
+### `npm start`
 
-## What each file does
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Components
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-inside the 'src/Components' folder there are a few components that are finally rendered in App.js. These components are as follows:
+### `npm test`
 
-#### Ciao.js
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Inside this file the basic layout of the application is rendered with a few mock users and at first it displays a main page. after clicking on any username the user is taken to the corresponding chat filled with a few pre-written messages
+### `npm run build`
 
-#### Chat.js
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Within this component basic user interactions are implemented, users can send messages to others containing emoji and time is automaticaly rendered as per the 'utils.js' file in the 'src' directory.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-For now the act of sending messages only rendered in the client side and there is no server-side interactions with the application.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Also currently sending files in messages is not possible.
+### `npm run eject`
 
-#### Bubble.js
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-This file holds a functional component which will render message bubbles with the time at which they were sent to the other user and/or the time at which the user has intercepted the message.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### messages.js
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-In this file there are a few mock messages for the application to render and are only for preview.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### images/
+## Learn More
 
-This is the folder in which there are the background images necessary for the user interface.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### App.css
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This is the file which contains the styles for the application.
+### Code Splitting
 
-## Dependencies
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-This project uses 'emoji-picker-react' package by ealush. To install the package simply run 'npm install emoji-picker-react'.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
